@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main {
+    margin: 20px;
+}
+
 body {
     font-family: "Arial", sans-serif;
 }
@@ -20,6 +24,13 @@ body {
 
 .col-33 {
     width: calc(100% / 3);
+}
+
+.content {
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 300px;
+    margin: 10px;
 }
 
 #logo {
