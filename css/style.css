@@ -27,10 +27,11 @@ body {
 }
 
 .content {
-    background-color: aquamarine;
-    border: 1px solid black;
-    height: 300px;
     margin: 10px;
+}
+
+.content img {
+    width: 100%;
 }
 
 #logo {
@@ -72,12 +73,64 @@ body {
     margin-top: 10px;
 }
 
+.mr-5 {
+    margin-right: 5px;
+}
+
 .p-20 {
     padding: 20px;
 }
 
 
-div i {
+div .nav-icons i {
     margin-left: 10px;
     color: white;
+}
+
+.bg-red {
+    background-color: rgb(167, 0, 0);
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.labels {
+    position: absolute;
+    display: flex;
+    bottom: 50px;
+    left: 0px;
+}
+
+.label {
+    color: white;
+    padding: 5px 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+.visible-image {
+    display: block;
+}
+
+.hidden-image {
+    display: none;
+}
+
+.content:hover .visible-image {
+    display: none;
+}
+
+.content:hover .hidden-image {
+    display: block;
+}
+
+.content i {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    padding: 10px;
+    background-color: white;
 }
