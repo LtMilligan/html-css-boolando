@@ -5,7 +5,7 @@
 }
 
 main {
-    margin: 20px;
+    margin: 100px 20px 20px 20px;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 .content {
-    margin: 10px;
+    margin: 30px 10px 10px 0;
 }
 
 .content img {
@@ -55,6 +55,14 @@ body {
 
 .bg-orange {
     background-color: #FF6900;
+}
+
+.fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
 }
 
 .ta-center {
@@ -133,4 +141,30 @@ div .nav-icons i {
     right: 0;
     padding: 10px;
     background-color: white;
+}
+
+.content i:hover {
+    color: red;
+}
+
+.spec-list {
+    list-style-type: none;
+}
+
+#price-sale {
+    color: red;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+#price-full {
+    font-size: 13px;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.brand {
+    font-size: 13px;
 }
