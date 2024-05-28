@@ -3,3 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+#logo {
+    height: 40px;
+}
+
+#main-list ul {
+    list-style-type: none;
+}
+
+#main-list ul li {
+    display: inline-block;
+}
+
+#main-list ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.bg-orange {
+    background-color: #FF6900;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+
+div i {
+    margin-left: 10px;
+    color: white;
+}
