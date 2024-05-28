@@ -155,13 +155,13 @@ div .nav-icons i {
     list-style-type: none;
 }
 
-#price-sale {
+.price-sale {
     color: red;
     font-weight: 800;
     font-size: 13px;
 }
 
-#price-full {
+.price-full {
     font-size: 13px;
 }
 
